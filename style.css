@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&family=Outfit:wght@200;700&family=Poppins:wght@400;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+@media screen (max-width:460px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows:;
+
+    }
+
+
+
+}
+.container {
+    display:grid;
+    margin: 0 auto;
+    width : 90%;
+    color: hsl(192, 100%, 9%);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.8fr 1.2fr 0.4fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "nav nav"
+    "header header"
+    "img img"
+    "numbers numbers"
+    "one one"
+    "two two"
+    "three three"
+    "bottom-nav bottom-nav"
+    "bootom-section bottom-section"
+    "footer footer"
+    ;
+}
+
+nav {
+    grid-area: nav;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+header {
+    grid-area:header;
+    margin-top: 4rem;
+}
+
+img {
+    grid-area:img;
+}
+
+.numbers {
+    grid-area : numbers;
+    margin-bottom: 6em;
+}
+
+.one{
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.bottom-nav {
+    grid-area: bottom-nav;
+}
+
+.bottom-section {
+    grid-area: bottom-section;
+}
+
+footer {
+    grid-area :footer;
+}
+
+
+nav,header,img,
+footer,.one,.two,.three,.bottom-section,.bottom-nav,.numbers{
+    grid-column: 1/-1;
+}
+
+header {
+    text-align: center;
+    padding: 3em;
+}
+
+.numbers,.one,.two,.three, .bottom-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.right-image1 {
+    display:grid;
+    object-fit: cover;
+}
+
+.prompt {
+    display: block;
+    font-size: 0.8rem;
+    color:  hsl(321, 100%, 78%);
+    border: 2px solid hsl(321, 100%, 78%) ;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.head {
+    font-size: 2rem;
+    color: hsl(192, 100%, 9%);
+    font-weight:bolder;
+}
+
+.text {
+    display: block;
+    width:59%;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    padding: 1.5em 1.5em;
+}
+
+.button {
+    display:block;
+    width: 20%;
+    margin: 0 auto;
+    color: white;
+    font-size: 0.8rem;
+    background-color: hsl(322, 100%, 66%);
+    padding: 0.9em 2em;
+    border-radius:2em ;
+    text-align: center;
+}
+
+.number {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bottom-text {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.top-title, .head-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.head-title {
+    text-align: center;
+    padding-bottom: 1.5em;
+    font-weight: bold;
+}
+
+.paragraph,.center-paragraph, .middle-paragraph, .phone, .email {
+    font-size: 0.9rem ;
+}
+
+.phone {
+    margin: 0.7em 0 0.7rem 0;
+}
+
+.main-title {
+    text-transform: uppercase;
+}
+
+.left-side {
+    width: 40%;
+}
+
+.center-paragraph {
+    width : 50%;
+    margin:1.2em 0 1.2em 0;
+}
+
+.submit-form {
+    display: inline-block;
+}
+
+.input {
+    background-color:  hsl(322, 100%, 66%);
+    padding: 0.3rem 1rem;
+    color: hsl(322, 100%, 66%);
+    border-radius: 0.3em;
+    margin-right: 2em;
+    width: 40%;
+}
+.subscribe {
+    background-color:  hsl(322, 100%, 66%);
+    font-size: 0.8rem;
+    border-radius: 0.3em;
+    color: white;
+    padding: 0.3rem 1rem;
+    text-align:center;
+}
+.submit-form {
+    display: flex;
+    justify-content: flex-start;
+}

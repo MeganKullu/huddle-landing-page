@@ -16,9 +16,9 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+This website is a solution to the Frontend Mentor challenge. The objective is to reate a similar responsive site.
 
 ### The challenge
 

@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle landing page with curved sections solution
 
-This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Huddle landing page with curved sections challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-curved-sections-5ca5ecd01e82137ec91a50f2). Frontend Mentor challenges are designed to help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -34,7 +34,7 @@ The challenge was :
 
 ### Links
 
-- Live Site URL: [My live site](https://your-live-site-url.com)
+- Live Site URL: [View here](https://phenomenal-tartufo-cc0f50.netlify.app/)
 
 ## My process
 
@@ -85,4 +85,4 @@ I want to focus on perfecting creating responsive sites.
 
 - Website - [Mywebsite](https://www.megankullu.tech)
 - Frontend Mentor - [@MeganKullu](https://www.frontendmentor.io/profile/MeganKullu)
-- Twitter - [@yourusername](https://www.twitter.com/megankullu)
+- LinkedIn - [Megan Kullu](https://www.linkedin.com/in/megankullu/)
